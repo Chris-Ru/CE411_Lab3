@@ -1,0 +1,59 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Feb 17 16:20:42 2025
+# Process ID: 2656
+# Current directory: C:/Users/socce/Downloads/Zybo-Z7-10-Pcam-5C-hw.xpr/Zybo-Z7-HW
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1912 C:\Users\socce\Downloads\Zybo-Z7-10-Pcam-5C-hw.xpr\Zybo-Z7-HW\Zybo-Z7-HW.xpr
+# Log file: C:/Users/socce/Downloads/Zybo-Z7-10-Pcam-5C-hw.xpr/Zybo-Z7-HW/vivado.log
+# Journal file: C:/Users/socce/Downloads/Zybo-Z7-10-Pcam-5C-hw.xpr/Zybo-Z7-HW\vivado.jou
+# Running On        :DESKTOP-73K1H90
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+# CPU Frequency     :2803 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :34194 MB
+# Swap memory       :2147 MB
+# Total Virtual     :36341 MB
+# Available Virtual :21209 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/socce/Downloads/Zybo-Z7-10-Pcam-5C-hw.xpr/Zybo-Z7-HW/Zybo-Z7-HW.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'D:/Zybo-Z7-HW/PrjAr/_X_' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/socce/Downloads/Zybo-Z7-10-Pcam-5C-hw.xpr/Zybo-Z7-HW/Zybo-Z7-HW.ipdefs/repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
+open_project: Time (s): cpu = 00:01:21 ; elapsed = 00:00:43 . Memory (MB): peak = 1760.062 ; gain = 539.531
+reset_run synth_1
+INFO: [Project 1-1160] Copying file C:/Users/socce/Downloads/Zybo-Z7-10-Pcam-5C-hw.xpr/Zybo-Z7-HW/Zybo-Z7-HW.runs/synth_1/system_wrapper.dcp to C:/Users/socce/Downloads/Zybo-Z7-10-Pcam-5C-hw.xpr/Zybo-Z7-HW/Zybo-Z7-HW.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Feb 17 16:22:29 2025] Launched synth_1...
+Run output will be captured here: C:/Users/socce/Downloads/Zybo-Z7-10-Pcam-5C-hw.xpr/Zybo-Z7-HW/Zybo-Z7-HW.runs/synth_1/runme.log
+[Mon Feb 17 16:22:30 2025] Launched impl_1...
+Run output will be captured here: C:/Users/socce/Downloads/Zybo-Z7-10-Pcam-5C-hw.xpr/Zybo-Z7-HW/Zybo-Z7-HW.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 1809.020 ; gain = 0.000
+update_compile_order -fileset sources_1
+write_hw_platform -fixed -include_bit -force -file C:/Users/socce/Downloads/Zybo-Z7-10-Pcam-5C-hw.xpr/Zybo-Z7-HW/system_wrapper.xsa
+INFO: [Project 1-1918] Creating Hardware Platform: C:/Users/socce/Downloads/Zybo-Z7-10-Pcam-5C-hw.xpr/Zybo-Z7-HW/system_wrapper.xsa ...
+WARNING: [Project 1-645] Board images not set in Hardware Platform.
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: C:/Users/socce/Downloads/Zybo-Z7-10-Pcam-5C-hw.xpr/Zybo-Z7-HW/system_wrapper.xsa
+INFO: [Hsi 55-2053] elapsed time for repository (C:/Xilinx/Vivado/2024.1/data/embeddedsw) loading 0 seconds
+write_hw_platform: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1979.301 ; gain = 157.098
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Feb 17 16:31:50 2025...

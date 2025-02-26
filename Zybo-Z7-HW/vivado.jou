@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Feb 17 16:20:42 2025
+# Process ID: 2656
+# Current directory: C:/Users/socce/Downloads/Zybo-Z7-10-Pcam-5C-hw.xpr/Zybo-Z7-HW
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1912 C:\Users\socce\Downloads\Zybo-Z7-10-Pcam-5C-hw.xpr\Zybo-Z7-HW\Zybo-Z7-HW.xpr
+# Log file: C:/Users/socce/Downloads/Zybo-Z7-10-Pcam-5C-hw.xpr/Zybo-Z7-HW/vivado.log
+# Journal file: C:/Users/socce/Downloads/Zybo-Z7-10-Pcam-5C-hw.xpr/Zybo-Z7-HW\vivado.jou
+# Running On        :DESKTOP-73K1H90
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+# CPU Frequency     :2803 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :34194 MB
+# Swap memory       :2147 MB
+# Total Virtual     :36341 MB
+# Available Virtual :21209 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/socce/Downloads/Zybo-Z7-10-Pcam-5C-hw.xpr/Zybo-Z7-HW/Zybo-Z7-HW.xpr
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+update_compile_order -fileset sources_1
+write_hw_platform -fixed -include_bit -force -file C:/Users/socce/Downloads/Zybo-Z7-10-Pcam-5C-hw.xpr/Zybo-Z7-HW/system_wrapper.xsa
